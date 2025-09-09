@@ -2,7 +2,6 @@ body {
    margin: 0;
    font-family: "Outfit", sans-serif;
    background: #d5e1ef;
-   font-size: 15px;
 
    position: absolute;
    top: 50%;
@@ -12,7 +11,7 @@ body {
 
 .section {
    max-width: 320px;
-   margin: auto;
+   margin: 0 auto;
    padding: 16px 16px 40px;
    border-radius: 20px;
    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
@@ -37,11 +36,17 @@ body {
 .card_text p:first-child {
    margin: 0 0 16px 0;
    font-weight: 700;
+   font-size: 22px;
+   line-height: 1.2;
 }
 
 .card_text p:last-child {
    margin: 0;
    font-weight: 400;
+   font-size: 15px;
+   line-height: 1.4;
+   letter-spacing: 0.01em;
+   color: #68778d;
 }
 
 .footer {
